@@ -24,3 +24,5 @@
 <!ENTITY prefwindow.title "Préférences de 'Tools &gt; Options for Linux'">
 <!ENTITY hideEditPrefs.label "Cacher Édition &gt; Préférences">
 <!ENTITY hidePrefsSeparator.label "Cacher aussi le séparateur">
+<!ENTITY options.label "Options…">
+<!ENTITY options.accesskey "O">

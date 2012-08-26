@@ -24,3 +24,5 @@
 <!ENTITY prefwindow.title "Алатке &gt; Опције за подешавања у Линуксу">
 <!ENTITY hideEditPrefs.label "Сакриј Уређивање &gt; Подешавања">
 <!ENTITY hidePrefsSeparator.label "Сакриј и разделник код Подешавања">
+<!ENTITY options.label "Подешавања…">
+<!ENTITY options.accesskey "O">

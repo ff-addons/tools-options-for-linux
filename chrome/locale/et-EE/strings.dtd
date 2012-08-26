@@ -22,3 +22,5 @@
 <!ENTITY prefwindow.title "Tööriistad &gt; Sätted Linux'ile sätted">
 <!ENTITY hideEditPrefs.label "Peida Muuda &gt; Sätteid">
 <!ENTITY hidePrefsSeparator.label "Peida ka sätete eraldaja">
+<!ENTITY options.label "Sätted…">
+<!ENTITY options.accesskey "S">

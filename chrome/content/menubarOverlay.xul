@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<!DOCTYPE overlay SYSTEM "chrome://browser/locale/browser.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://toolsoptions4linux/locale/strings.dtd">
 
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script type="text/javascript"
@@ -25,8 +25,8 @@
   <menupopup id="menu_ToolsPopup">
     <menuseparator id="prefSep"/>
     <menuitem id="menu_options"
-              label="&preferencesCmd.label;"
-              accesskey="&preferencesCmd.accesskey;"
+              label="&options.label;"
+              accesskey="&options.accesskey;"
               oncommand="openPreferences();"/>
   </menupopup>
 </overlay>

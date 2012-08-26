@@ -14,15 +14,15 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
 -->
+
 <!-- TRANSLATORS: Please also translate the summary and description found
      at https://addons.mozilla.org/en-US/firefox/addon/215985/ and send them
      to me as an attachment to a message in the support thread or a private
-     message on BabelZilla or via email. 
--->
-<!ENTITY prefwindow.title "Tools &gt; Options for Linux-voorkeuren">
-<!ENTITY hideEditPrefs.label "Bewerken &gt; Voorkeuren verbergen">
-<!ENTITY hidePrefsSeparator.label "Scheidingsteken Voorkeuren ook verbergen">
-<!ENTITY options.label "Opties…">
-<!ENTITY options.accesskey "O">
+     message on BabelZilla or via email. -->
+
+<!ENTITY prefwindow.title "Tools &gt; Options… for Linux preferences">
+<!ENTITY hideEditPrefs.label "Hide Edit &gt; Preferences">
+<!ENTITY hidePrefsSeparator.label "Hide Preferences separator also">
+<!ENTITY options.label "אפשרויות...">
+<!ENTITY options.accesskey "א">

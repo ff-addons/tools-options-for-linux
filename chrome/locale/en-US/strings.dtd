@@ -21,6 +21,11 @@
      to me as an attachment to a message in the support thread or a private
      message on BabelZilla or via email. -->
 
-<!ENTITY prefwindow.title "Tools &gt; Options for Linux preferences">
+<!ENTITY prefwindow.title "Tools &gt; Options… for Linux preferences">
 <!ENTITY hideEditPrefs.label "Hide Edit &gt; Preferences">
 <!ENTITY hidePrefsSeparator.label "Hide Preferences separator also">
+<!-- TRANSLATORS need not actually translate these two strings below. I can
+     easily do so, and they need to match the strings used in the Mozilla
+     source. -->
+<!ENTITY options.label "Options…">
+<!ENTITY options.accesskey "O">

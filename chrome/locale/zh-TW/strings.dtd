@@ -21,8 +21,8 @@
      to me as an attachment to a message in the support thread or a private
      message on BabelZilla or via email. 
 -->
-<!ENTITY prefwindow.title "Tools &gt; Options for Linux-voorkeuren">
-<!ENTITY hideEditPrefs.label "Bewerken &gt; Voorkeuren verbergen">
-<!ENTITY hidePrefsSeparator.label "Scheidingsteken Voorkeuren ook verbergen">
-<!ENTITY options.label "Opties…">
+<!ENTITY prefwindow.title "Tools &gt; Options for Linux 偏好設定">
+<!ENTITY hideEditPrefs.label "隱藏編輯選單下的偏好設定">
+<!ENTITY hidePrefsSeparator.label "一併隱藏偏好設定上方的分隔線">
+<!ENTITY options.label "選項…">
 <!ENTITY options.accesskey "O">

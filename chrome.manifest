@@ -1,19 +1,35 @@
 content	toolsoptions4linux	chrome/content/
 skin	toolsoptions4linux	default	chrome/skin/
+locale	toolsoptions4linux	ar	chrome/locale/ar/
+locale	toolsoptions4linux	de	chrome/locale/de/
+locale	toolsoptions4linux	el	chrome/locale/el/
 locale	toolsoptions4linux	en-US	chrome/locale/en-US/
+locale	toolsoptions4linux	es-AR	chrome/locale/es-AR/
+locale	toolsoptions4linux	es-ES	chrome/locale/es-ES/
+locale	toolsoptions4linux	es-MX	chrome/locale/es-MX/
 locale	toolsoptions4linux	et-EE	chrome/locale/et-EE/
 locale	toolsoptions4linux	fr	chrome/locale/fr/
+locale	toolsoptions4linux	he	chrome/locale/he/
+locale	toolsoptions4linux	it	chrome/locale/it/
+locale	toolsoptions4linux	ja	chrome/locale/ja/
 locale	toolsoptions4linux	nl	chrome/locale/nl/
+locale	toolsoptions4linux	pl	chrome/locale/pl/
 locale	toolsoptions4linux	pt-BR	chrome/locale/pt-BR/
+locale	toolsoptions4linux	ro	chrome/locale/ro/
+locale	toolsoptions4linux	ru	chrome/locale/ru/
 locale	toolsoptions4linux	sr	chrome/locale/sr/
+locale	toolsoptions4linux	sv-SE	chrome/locale/sv-SE/
 locale	toolsoptions4linux	zh-CN	chrome/locale/zh-CN/
+locale	toolsoptions4linux	zh-TW	chrome/locale/zh-TW/
 
 overlay	chrome://browser/content/browser.xul chrome://toolsoptions4linux/content/menubarOverlay.xul
+overlay chrome://navigator/content/navigatorOverlay.xul chrome://toolsoptions4linux/content/menubarOverlay-tb.xul
 overlay chrome://messenger/content/mailWindowOverlay.xul chrome://toolsoptions4linux/content/menubarOverlay-tb.xul
 overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://toolsoptions4linux/content/menubarOverlay-tb.xul
 overlay chrome://messenger/content/addressbook/addressbook.xul chrome://toolsoptions4linux/content/menubarOverlay-tb.xul
 
 style	chrome://browser/content/browser.xul chrome://toolsoptions4linux/skin/skin.css
+style	chrome://navigator/content/navigatorOverlay.xul chrome://toolsoptions4linux/skin/skin.css
 style	chrome://messenger/content/mailWindowOverlay.xul chrome://toolsoptions4linux/skin/skin.css
 style	chrome://messenger/content/messengercompose/messengercompose.xul chrome://toolsoptions4linux/skin/skin.css
 style	chrome://messenger/content/addressbook/addressbook.xul chrome://toolsoptions4linux/skin/skin.css

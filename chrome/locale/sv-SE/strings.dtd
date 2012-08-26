@@ -21,8 +21,8 @@
      to me as an attachment to a message in the support thread or a private
      message on BabelZilla or via email. 
 -->
-<!ENTITY prefwindow.title "Tools &gt; Options for Linux-voorkeuren">
-<!ENTITY hideEditPrefs.label "Bewerken &gt; Voorkeuren verbergen">
-<!ENTITY hidePrefsSeparator.label "Scheidingsteken Voorkeuren ook verbergen">
-<!ENTITY options.label "Opties…">
-<!ENTITY options.accesskey "O">
+<!ENTITY prefwindow.title "Verktyg &gt; Inställningar för Linux">
+<!ENTITY hideEditPrefs.label "Göm Redigera &gt; Inställningar">
+<!ENTITY hidePrefsSeparator.label "Göm även avgränsare för Inställningar">
+<!ENTITY options.label "Inställningar…">
+<!ENTITY options.accesskey "I">
