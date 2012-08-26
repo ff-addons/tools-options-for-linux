@@ -1,0 +1,6 @@
+<!-- TRANSLATORS: Please also translate the summary and description found
+     at https://addons.mozilla.org/en-US/firefox/addon/215985/ and send them
+     to me as an attachment to a message in the support thread or a private
+     message on BabelZilla or via email. -->
+<!ENTITY hideEditPrefs.label "Hide Edit &gt; Preferences">
+<!ENTITY hidePrefsSeparator.label "Hide Preferences separator also">

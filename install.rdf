@@ -4,8 +4,9 @@
   <RDF:Description about="urn:mozilla:install-manifest">
     <id>toolsoptions4linux@daniel.dawson</id>
     <type>2</type>
+    <bootstrap>true</bootstrap>
     <name>Tools &gt; Options… for Linux</name>
-    <version>1.2.1</version>
+    <version>2.0</version>
     <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
     <translator>bg-BG: arris (BabelZilla)</translator>
     <translator>de: Tobias Markus "Tobbi" (BabelZilla)</translator>
@@ -22,6 +23,35 @@
     <translator>zh-CN: BruceH (BabelZilla)</translator>
     <translator>zh-TW: Velociraptor (BabelZilla)</translator>
     <description>Moves Edit &gt; Preferences to Tools &gt; Options…</description>
+
+    <optionsURL>chrome://toolsoptions4linux/content/options.xul</optionsURL>
+    <optionsType>2</optionsType>
+
+    <targetPlatform>Linux</targetPlatform>
+
+    <targetApplication>
+      <RDF:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id> <!-- Firefox -->
+        <minVersion>8.0</minVersion>
+        <maxVersion>14.0a1</maxVersion>
+      </RDF:Description>
+    </targetApplication>
+
+    <targetApplication>
+      <RDF:Description>
+        <id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</id> <!-- Thunderbird -->
+        <minVersion>8.0</minVersion>
+        <maxVersion>14.0a1</maxVersion>
+      </RDF:Description>
+    </targetApplication>
+
+    <targetApplication>
+      <RDF:Description>
+        <id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id> <!-- SeaMonkey -->
+        <minVersion>2.5</minVersion>
+        <maxVersion>2.11a1</maxVersion>
+      </RDF:Description>
+    </targetApplication>
 
     <localized>
       <RDF:Description>
@@ -234,33 +264,5 @@
         <description>將選單的「編輯 &gt; 偏好設定」移動到「工具 &gt; 選項…」。</description>
       </RDF:Description>
     </localized>
-
-    <optionsURL>chrome://toolsoptions4linux/content/prefwindow.xul</optionsURL>
-
-    <targetPlatform>Linux</targetPlatform>
-
-    <targetApplication>
-      <RDF:Description>
-        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id> <!-- Firefox -->
-        <minVersion>2.0</minVersion>
-        <maxVersion>12.0a1</maxVersion>
-      </RDF:Description>
-    </targetApplication>
-
-    <targetApplication>
-      <RDF:Description>
-        <id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</id> <!-- Thunderbird -->
-        <minVersion>2.0</minVersion>
-        <maxVersion>12.0a1</maxVersion>
-      </RDF:Description>
-    </targetApplication>
-
-    <targetApplication>
-      <RDF:Description>
-        <id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id> <!-- SeaMonkey -->
-        <minVersion>2.0</minVersion>
-        <maxVersion>2.8a1</maxVersion>
-      </RDF:Description>
-    </targetApplication>
   </RDF:Description>
 </RDF:RDF>
