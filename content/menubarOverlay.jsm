@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-var EXPORTED_SYMBOLS = ["bootstrapInterface"];
+var EXPORTED_SYMBOLS = ["winOverlayInterface"];
 
 const OPTIONS_SEP_ID = "toolsoptions4linux-prefSep",
       OPTIONS_ID = "toolsoptions4linux-menu_options";
@@ -47,7 +47,7 @@ function find_prefsSeparator (aMP) {
   return null;
 }
 
-var bootstrapInterface = {
+var winOverlayInterface = {
   addWindow: function (aWin) {
     var popup = el(aWin, "menu_ToolsPopup");
     if (!popup) popup = el(aWin, "taskPopup");
@@ -114,30 +114,18 @@ var bootstrapInterface = {
     };
 
     editPopup.addEventListener("popupshowing", _popupshowingHandler, false);
-
-    function _unloadHandler (aEvt) {
-      var target = aEvt.target;
-      if ((target instanceof Ci.nsIDOMXULDocument
-           && target.defaultView == aWin)
-          || target == aWin)
-        bootstrapInterface.removeWindow(aWin);
-    }
-
-    aWin.addEventListener("unload", _unloadHandler, false);
-    windows.push([aWin, editPopup, mp, _popupshowingHandler, _unloadHandler]);
+    windows.push([aWin, editPopup, mp, _popupshowingHandler]);
   },
 
   removeWindow: function (aWin) {
     for (let i = 0; i < windows.length; i++) {
-      let [matchWindow, popup, mp, popupshowingHandler, unloadHandler] =
-        windows[i];
+      let [matchWindow, popup, mp, popupshowingHandler] = windows[i];
 
       if (matchWindow == aWin) {
         mp.removeAttribute("hidden");
         let ms = find_prefsSeparator(mp);
         if (ms) ms.removeAttribute("hidden");
         popup.removeEventListener("popupshowing", popupshowingHandler, false);
-        aWin.removeEventListener("unload", unloadHandler, false);
         windows.splice(i, 1);
         break;
       }

@@ -6,7 +6,7 @@
     <type>2</type>
     <bootstrap>true</bootstrap>
     <name>Tools &gt; Options… for Linux</name>
-    <version>2.0</version>
+    <version>2.1.1</version>
     <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
     <translator>bg-BG: arris (BabelZilla)</translator>
     <translator>de: Tobias Markus "Tobbi" (BabelZilla)</translator>
@@ -18,6 +18,7 @@
     <translator>nl: markh (BabelZilla)</translator>
     <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
     <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+    <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
     <translator>sr: DakSrbija (BabelZilla)</translator>
     <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
     <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -32,24 +33,24 @@
     <targetApplication>
       <RDF:Description>
         <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id> <!-- Firefox -->
-        <minVersion>8.0</minVersion>
-        <maxVersion>14.0a1</maxVersion>
+        <minVersion>10.0</minVersion>
+        <maxVersion>15.0a1</maxVersion>
       </RDF:Description>
     </targetApplication>
 
     <targetApplication>
       <RDF:Description>
         <id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</id> <!-- Thunderbird -->
-        <minVersion>8.0</minVersion>
-        <maxVersion>14.0a1</maxVersion>
+        <minVersion>10.0</minVersion>
+        <maxVersion>15.0a1</maxVersion>
       </RDF:Description>
     </targetApplication>
 
     <targetApplication>
       <RDF:Description>
         <id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id> <!-- SeaMonkey -->
-        <minVersion>2.5</minVersion>
-        <maxVersion>2.11a1</maxVersion>
+        <minVersion>2.7</minVersion>
+        <maxVersion>2.12a1</maxVersion>
       </RDF:Description>
     </targetApplication>
 
@@ -68,6 +69,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: ДакСРБИЈА (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -89,11 +91,12 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
         <translator>zh-TW: Velociraptor (BabelZilla)</translator>
-        <description>Verschiebt Bearbeiten > Einstellungen nach Extras > Optionen...</description>
+        <description>Verschiebt Bearbeiten &gt; Einstellungen nach Extras &gt; Optionen...</description>
       </RDF:Description>
 
       <RDF:Description>
@@ -110,6 +113,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -131,6 +135,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -152,6 +157,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -173,11 +179,34 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
         <translator>zh-TW: Velociraptor (BabelZilla)</translator>
         <description>Move o item de menu Editar &gt; Preferências para Ferramentas &gt; Opções…</description>
+      </RDF:Description>
+
+      <RDF:Description>
+        <locale>sk-SK</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>bg-BG: arris (BabelZilla)</translator>
+        <translator>de: Tobias Markus "Tobbi" (BabelZilla)</translator>
+        <translator>es-ES: Alejandro Pérez Martín "AlePerez92" (BabelZilla)</translator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>it: DAmbrosi (BabelZilla)</translator>
+        <translator>ja: Haebaru (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
+        <translator>sr: DakSrbija (BabelZilla)</translator>
+        <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <translator>zh-TW: Velociraptor (BabelZilla)</translator>
+        <description>Moves Edit &gt; Preferences to Tools &gt; Options…</description>
       </RDF:Description>
 
       <RDF:Description>
@@ -194,6 +223,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: ДакСРБИЈА (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -215,6 +245,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -236,6 +267,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
@@ -257,6 +289,7 @@
         <translator>nl: markh (BabelZilla)</translator>
         <translator>pl: Marcin Borowczyk "MarcinB" (BabelZilla)</translator>
         <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sk-SK: Tomáš Taro "tomastaro" (BabelZilla)</translator>
         <translator>sr: DakSrbija (BabelZilla)</translator>
         <translator>sv-SE: Mikael Hiort af Ornäs "Lakrits" (BabelZilla)</translator>
         <translator>zh-CN: BruceH (BabelZilla)</translator>
