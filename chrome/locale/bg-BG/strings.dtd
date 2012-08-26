@@ -1,0 +1,14 @@
+<!-- TRANSLATORS: Please also translate the summary and description found
+     at https://addons.mozilla.org/en-US/firefox/addon/215985/ and send them
+     to me as an attachment to a message in the support thread or a private
+     message on BabelZilla or via email. 
+-->
+<!ENTITY prefwindow.title "Инструменти &gt; Опции... за Linux предпочитания">
+<!ENTITY hideEditPrefs.label "Скрий редактиране &gt; Предпочитания">
+<!ENTITY hidePrefsSeparator.label "Скрий и разделителя на Предпочитанията">
+<!-- TRANSLATORS need not actually translate these two strings below. I can
+     easily do so, and they need to match the strings used in the Mozilla
+     source. 
+-->
+<!ENTITY options.label "Настройки…">
+<!ENTITY options.accesskey "Н">

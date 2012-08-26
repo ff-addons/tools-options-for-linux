@@ -1,5 +1,5 @@
 /*
-    Tools > Options for Linux, extension for Firefox 3.0+
+    Tools > Options for Linux, extension for Firefox/Thunderbird/SeaMonkey
     Copyright (C) 2010  Daniel Dawson <ddawson@icehouse.net>
 
     This program is free software: you can redistribute it and/or modify
@@ -19,6 +19,13 @@
 window.addEventListener(
   "load",
   function init_menuitemDynamic (evt) {
+    var mp = document.getElementById("menu_preferences");
+    var mo = document.getElementById("menu_options");
+    if (mp.hasAttribute("oncommand"))
+      mo.setAttribute("oncommand", mp.getAttribute("oncommand"));
+    else
+      mo.setAttribute("command", mp.getAttribute("command"));
+
     const prefBranch =
       Components.classes["@mozilla.org/preferences-service;1"].
       getService(Components.interfaces.nsIPrefService).
@@ -30,14 +37,21 @@ window.addEventListener(
           "popupshowing",
           function (evt) {
             var hideItem = prefBranch.getBoolPref("hide_editPrefs");
-            var n = document.getElementById("menu_preferences");
-            n.hidden = hideItem;
+            if (hideItem)
+              mp.setAttribute("hidden", "true");
+            else
+              mp.removeAttribute("hidden");
+
             var hideSep = prefBranch.getBoolPref("hide_prefsSeparator");
 
-            for (n = n.previousSibling; n; n = n.previousSibling) {
+            for (var n = mp.previousSibling; n; n = n.previousSibling) {
               if (n.nodeType == Node.ELEMENT_NODE) {
-                if (n.nodeName.toLowerCase() == "menuseparator")
-                  n.hidden = hideItem && hideSep;
+                if (n.nodeName.toLowerCase() == "menuseparator") {
+                  if (hideItem && hideSep)
+                    n.setAttribute("hidden", "true");
+                  else
+                    n.removeAttribute("hidden");
+                }
                 break;
               }
             }
@@ -61,7 +75,8 @@ window.addEventListener(
     }
 
     register_menuitemDynamic(myEvaluate1(
-      '//xul:menu[@id="edit-menu" or @id="menu_Edit"]/xul:menupopup[1]'));
+      '//xul:menu[@id="edit-menu" or @id="menu_Edit" or @id="editMenu"]'
+      + '/xul:menupopup[1]'));
     window.removeEventListener("load", init_menuitemDynamic, false);
   },
   false);

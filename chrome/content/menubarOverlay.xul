@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Tools > Options for Linux, extension for Firefox 3.0+
+    Tools > Options for Linux, extension for Firefox/Thunderbird/SeaMonkey
     Copyright (C) 2010  Daniel Dawson <ddawson@icehouse.net>
 
     This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,6 @@
     <menuseparator id="prefSep"/>
     <menuitem id="menu_options"
               label="&options.label;"
-              accesskey="&options.accesskey;"
-              oncommand="openPreferences();"/>
+              accesskey="&options.accesskey;"/>
   </menupopup>
 </overlay>
