@@ -20,6 +20,7 @@ window.addEventListener(
   "load",
   function init_menuitemDynamic (evt) {
     var mp = document.getElementById("menu_preferences");
+    if (!mp) mp = document.getElementById(":cmd-mozilla-prefs");
     var mo = document.getElementById("menu_options");
     if (mp.hasAttribute("oncommand"))
       mo.setAttribute("oncommand", mp.getAttribute("oncommand"));

@@ -5,7 +5,7 @@
     <id>toolsoptions4linux@daniel.dawson</id>
     <type>2</type>
     <name>Tools &gt; Options… for Linux</name>
-    <version>1.2</version>
+    <version>1.2.1</version>
     <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
     <translator>bg-BG: arris (BabelZilla)</translator>
     <translator>de: Tobias Markus "Tobbi" (BabelZilla)</translator>
@@ -243,7 +243,7 @@
       <RDF:Description>
         <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id> <!-- Firefox -->
         <minVersion>2.0</minVersion>
-        <maxVersion>7.0a1</maxVersion>
+        <maxVersion>12.0a1</maxVersion>
       </RDF:Description>
     </targetApplication>
 
@@ -251,7 +251,7 @@
       <RDF:Description>
         <id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</id> <!-- Thunderbird -->
         <minVersion>2.0</minVersion>
-        <maxVersion>7.0a1</maxVersion>
+        <maxVersion>12.0a1</maxVersion>
       </RDF:Description>
     </targetApplication>
 
@@ -259,7 +259,7 @@
       <RDF:Description>
         <id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id> <!-- SeaMonkey -->
         <minVersion>2.0</minVersion>
-        <maxVersion>2.4a1</maxVersion>
+        <maxVersion>2.8a1</maxVersion>
       </RDF:Description>
     </targetApplication>
   </RDF:Description>
