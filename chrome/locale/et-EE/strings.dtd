@@ -1,7 +1,6 @@
 <!--
     Tools > Options for Linux, extension for Firefox 3.0+
     Copyright (C) 2010  Daniel Dawson <ddawson@icehouse.net>
-
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -20,7 +19,6 @@
      at https://addons.mozilla.org/en-US/firefox/addon/215985/ and send them
      to me as an attachment to a message in the support thread or a private
      message on BabelZilla or via email. -->
-
-<!ENTITY prefwindow.title "Tools &gt; Options for Linux preferences">
-<!ENTITY hideEditPrefs.label "Hide Edit &gt; Preferences">
-<!ENTITY hidePrefsSeparator.label "Hide Preferences separator also">
+<!ENTITY prefwindow.title "Tööriistad &gt; Sätted Linux'ile sätted">
+<!ENTITY hideEditPrefs.label "Peida Muuda &gt; Sätteid">
+<!ENTITY hidePrefsSeparator.label "Peida ka sätete eraldaja">

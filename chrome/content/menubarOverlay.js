@@ -24,28 +24,44 @@ window.addEventListener(
       getService(Components.interfaces.nsIPrefService).
       getBranch("extensions.toolsoptions4linux.");
 
-    function menuitemDynamic (evt) {
-      var prefsItem = document.getElementById("menu_preferences");
-      var hideItem = prefBranch.getBoolPref("hide_editPrefs");
-      prefsItem.hidden = hideItem;
-      var hideSep = prefBranch.getBoolPref("hide_prefsSeparator");
-      var sep = prefsItem;
-      while (sep = sep.previousSibling) {
-        if (sep.nodeType == Node.ELEMENT_NODE) {
-          if (sep.nodeName.toLowerCase() == "menuseparator")
-            sep.hidden = hideItem && hideSep;
-          break;
-        }
-      }
-      return true;
-    }
-
     function register_menuitemDynamic (popup) {
       if (popup)
-        popup.addEventListener("popupshowing", menuitemDynamic, false);
+        popup.addEventListener(
+          "popupshowing",
+          function (evt) {
+            var hideItem = prefBranch.getBoolPref("hide_editPrefs");
+            var n = document.getElementById("menu_preferences");
+            n.hidden = hideItem;
+            var hideSep = prefBranch.getBoolPref("hide_prefsSeparator");
+
+            for (n = n.previousSibling; n; n = n.previousSibling) {
+              if (n.nodeType == Node.ELEMENT_NODE) {
+                if (n.nodeName.toLowerCase() == "menuseparator")
+                  n.hidden = hideItem && hideSep;
+                break;
+              }
+            }
+
+            return true;
+          },
+          false);
     }
 
-    register_menuitemDynamic(document.getElementById("menu_EditPopup"));
+    var normalNSResolver = document.createNSResolver(document.documentElement);
+    function myNSResolver (prefix) {
+      if (prefix == "xul")
+        return "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+      else
+        return normalNSResolver(prefix);
+    }
+
+    function myEvaluate1 (expr, resultType) {
+      return document.evaluate(expr, document, myNSResolver,
+        XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    }
+
+    register_menuitemDynamic(myEvaluate1(
+      '//xul:menu[@id="edit-menu" or @id="menu_Edit"]/xul:menupopup[1]'));
     window.removeEventListener("load", init_menuitemDynamic, false);
   },
   false);

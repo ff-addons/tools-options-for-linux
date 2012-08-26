@@ -4,9 +4,95 @@
   <RDF:Description about="urn:mozilla:install-manifest">
     <id>toolsoptions4linux@daniel.dawson</id>
     <name>Tools &gt; Options… for Linux</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+    <translator>et-EE: Grunt (BabelZilla)</translator>
+    <translator>fr: benoitb (BabelZilla)</translator>
+    <translator>nl: markh (BabelZilla)</translator>
+    <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+    <translator>sr: DakSrbija (BabelZilla)</translator>
+    <translator>zh-CN: BruceH (BabelZilla)</translator>
     <description>Moves Edit &gt; Preferences to Tools &gt; Options…</description>
+
+    <localized>
+      <RDF:Description>
+        <locale>et-EE</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sr: DakSrbija (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <description>Liigutab Muuda > Sätteid Tööriistad > Sätted alla…</description>
+      </RDF:Description>
+
+      <RDF:Description>
+        <locale>fr</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sr: DakSrbija (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <description>Déplace Édition &gt; Préférences vers Outils &gt; Options…</description>
+      </RDF:Description>
+
+      <RDF:Description>
+        <locale>nl</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sr: DakSrbija (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <description>Verplaatst Bewerken &gt; Voorkeuren naar Extra &gt; Opties…</description>
+      </RDF:Description>
+
+      <RDF:Description>
+        <locale>pt-BR</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sr: DakSrbija (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <description>Move o item de menu Editar > Preferências para Ferramentas > Opções…</description>
+      </RDF:Description>
+
+      <RDF:Description>
+        <locale>sr</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sr: ДакСРБИЈА (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <description>Премешта ставку из Уређивање > Подешавања у Алатке > Опције…</description>
+      </RDF:Description>
+
+      <RDF:Description>
+        <locale>zh-CN</locale>
+        <name>Tools &gt; Options… for Linux</name>
+        <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+        <translator>et-EE: Grunt (BabelZilla)</translator>
+        <translator>fr: benoitb (BabelZilla)</translator>
+        <translator>nl: markh (BabelZilla)</translator>
+        <translator>pt-BR: Marcelo Ghelman (ghelman.net) "Ghelman" (BabelZilla)</translator>
+        <translator>sr: DakSrbija (BabelZilla)</translator>
+        <translator>zh-CN: BruceH (BabelZilla)</translator>
+        <description>移动「编辑 > 首选项」到「工具 > 选项...」</description>
+      </RDF:Description>
+    </localized>
 
     <optionsURL>chrome://toolsoptions4linux/content/prefwindow.xul</optionsURL>
 
@@ -15,15 +101,15 @@
     <targetApplication>
       <RDF:Description>
         <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id> <!-- Firefox -->
-        <minVersion>3.0</minVersion>
-        <maxVersion>4.0b4pre</maxVersion>
+        <minVersion>2.0</minVersion>
+        <maxVersion>4.0b5pre</maxVersion>
       </RDF:Description>
     </targetApplication>
 
     <targetApplication>
       <RDF:Description>
         <id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</id> <!-- Thunderbird -->
-        <minVersion>3.0</minVersion>
+        <minVersion>2.0</minVersion>
         <maxVersion>3.2a1pre</maxVersion>
       </RDF:Description>
     </targetApplication>

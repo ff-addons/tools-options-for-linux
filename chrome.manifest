@@ -1,6 +1,12 @@
 content	toolsoptions4linux	chrome/content/
 skin	toolsoptions4linux	default	chrome/skin/
 locale	toolsoptions4linux	en-US	chrome/locale/en-US/
+locale	toolsoptions4linux	et-EE	chrome/locale/et-EE/
+locale	toolsoptions4linux	fr	chrome/locale/fr/
+locale	toolsoptions4linux	nl	chrome/locale/nl/
+locale	toolsoptions4linux	pt-BR	chrome/locale/pt-BR/
+locale	toolsoptions4linux	sr	chrome/locale/sr/
+locale	toolsoptions4linux	zh-CN	chrome/locale/zh-CN/
 
 overlay	chrome://browser/content/browser.xul chrome://toolsoptions4linux/content/menubarOverlay.xul
 overlay chrome://messenger/content/mailWindowOverlay.xul chrome://toolsoptions4linux/content/menubarOverlay-tb.xul
